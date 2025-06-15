@@ -15,6 +15,6 @@ This project builds an image captioning model that generates textual description
 
 This model contains about 8,000 images in .jpg, .png format.
 
-# Modules needed
+# Libraries needed
 
-You will need to install the libraries said in Modules.txt file 
+You will need to install the libraries in Libraries.txt file 
