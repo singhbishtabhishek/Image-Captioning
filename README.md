@@ -17,4 +17,4 @@ This model contains about 8,000 images in .jpg, .png format.
 
 # Modules needed
 
-You will need to install the modeules given in Modules.txt file 
+You will need to install the libraries said in Modules.txt file 
