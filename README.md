@@ -3,6 +3,9 @@ This project builds an image captioning model that generates textual description
 
 # Model Architecture
  **Feature extractor**: Pre-trained CNN (e.g., InceptionV3, ResNet50) extracts image features.
+ 
  **Captioning model**: An LSTM-based decoder generates text based on image features and word embeddings.
+ 
  **Loss Function**: Categorical Cross-Entropy.
+ 
  **Optimizer**: Adam.
