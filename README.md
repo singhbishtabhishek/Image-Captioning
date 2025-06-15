@@ -9,3 +9,12 @@ This project builds an image captioning model that generates textual description
  **Loss Function**: Categorical Cross-Entropy.
  
  **Optimizer**: Adam.
+
+# Dataset 
+**Flicker8k_Dataset**
+
+This model contains about 8,000 images in .jpg, .png format.
+
+# Modules needed
+
+You will need to install the modeules given in Modules.txt file 
