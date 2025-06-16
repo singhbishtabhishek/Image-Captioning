@@ -1,4 +1,4 @@
-# Image-Captioning-using-a-dataset
+# Image Captioning using a dataset
 This project builds an image captioning model that generates textual descriptions for images using a CNN + LSTM architecture, trained on the Flickr8k dataset. The code is written in google colab.
 
 # Model Architecture
