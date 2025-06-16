@@ -74,10 +74,12 @@ Final trained model after all epochs.
 # Output example
  
  **Input**
+ 
 ![Testing_Image](https://github.com/user-attachments/assets/d0fbacff-5fe4-441b-b44a-ec7d6f09c717)
 
 
 **Output**
+
 ![output](https://github.com/user-attachments/assets/334377cd-43d1-46cb-ae79-907c9a9a5009)
 
 
