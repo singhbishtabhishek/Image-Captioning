@@ -30,6 +30,7 @@ This foder contains the images to help model train.
 📂**Flicker8k_text**
 
 **-Flickr8k.token.txt**	
+
 This folder contains all images captions (5 per images).
 
 **-Flickr_8k.trainImages.txt**
