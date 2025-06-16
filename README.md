@@ -27,6 +27,10 @@ You will need to install the libraries in requirements.txt file.
 
 This foder contains the images to help model train.
 
+📂**Models**
+
+Contains saved models checkpoints (will be created by function define_model)
+
 📂**Flicker8k_text**
 
 **-Flickr8k.token.txt**	
@@ -44,10 +48,6 @@ Contains filenames for the test set.
 **-Flickr_8k.devImages.txt**
 
 Contains filenames for the validate set.
-
-📂**Models**
-
-Contains saved models checkpoints (will be created by function define_model)
 
 **-descriptions.txt**
 
