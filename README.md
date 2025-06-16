@@ -23,7 +23,8 @@ You will need to install the libraries in requirements.txt file.
 
 # Dataset overview
 
-You can get all the files from the given drive link 
+You can get all the files from the given drive link:
+
 https://drive.google.com/drive/folders/1IbiGxagQwv4EwFAqAV2IVRjgStSp1cOV?usp=drive_link
 
 📂**Flicker8k_Dataset**
