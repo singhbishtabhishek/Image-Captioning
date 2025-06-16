@@ -13,8 +13,6 @@ This project builds an image captioning model that generates textual description
 # Dataset 
 📂**Flicker8k_Dataset**
 
-https://drive.google.com/drive/folders/1SVmRrV5_GDgHnFX7TOzqJKYh_C9sG3mu?usp=sharing
-
 This model contains about 8,000 images in .jpg, .png format with the captions writen in about 4-5 different ways.
 
 The dataset contains the captions along with the images to be used to train the model to generate the captions for a given image.
@@ -24,6 +22,9 @@ The dataset contains the captions along with the images to be used to train the 
 You will need to install the libraries in requirements.txt file. 
 
 # Dataset overview
+
+You can get all the files from the given drive link 
+https://drive.google.com/drive/folders/1IbiGxagQwv4EwFAqAV2IVRjgStSp1cOV?usp=drive_link
 
 📂**Flicker8k_Dataset**
 
