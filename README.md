@@ -11,7 +11,7 @@ This project builds an image captioning model that generates textual description
  **Optimizer**: Adam.
 
 # Dataset 
-**Flicker8k_Dataset**
+📂**Flicker8k_Dataset**
 
 This model contains about 8,000 images in .jpg, .png format with the captions writen in about 4-5 different ways.
 
@@ -22,11 +22,13 @@ The dataset contains the captions along with the images to be used to train the 
 You will need to install the libraries in requirements.txt file. 
 
 # Dataset overview
-**Flicker8k_Dataset**
+
+📂**Flicker8k_Dataset**
 
 This foder contains the images to help model train.
 
-**Flicker8k_text**
+📂**Flicker8k_text**
+
 **Flickr8k.token.txt**	
 This folder contains all images captions (5 per images).
 
