@@ -72,21 +72,12 @@ Final trained model after all epochs.
 
 
 # Output example
-<table>
  
  **Input**
-<tr>
-    <td><b>Input</b></td>
-    <td><b>Output</b></td>
-  </tr>
-  <tr>
-    <img src="![Testing_Image](https://github.com/user-attachments/assets/02c8cdc5-718c-4e2f-adda-30cafa83813e)
-" width="400"/>
-    <img src="![output](https://github.com/user-attachments/assets/2aefa43a-dd2b-44f8-84c5-6eb4943d83f1)
-" width="400"/>
-  </tr>
+![Testing_Image](https://github.com/user-attachments/assets/d0fbacff-5fe4-441b-b44a-ec7d6f09c717)
+
 
 **Output**
-</table>
+![output](https://github.com/user-attachments/assets/334377cd-43d1-46cb-ae79-907c9a9a5009)
 
 
