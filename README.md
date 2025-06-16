@@ -75,13 +75,18 @@ Final trained model after all epochs.
 <table>
  
  **Input**
-
-![Testing_Image](https://github.com/user-attachments/assets/02c8cdc5-718c-4e2f-adda-30cafa83813e)
+<tr>
+    <td><b>Input</b></td>
+    <td><b>Output</b></td>
+  </tr>
+  <tr>
+    <td><img src="![Testing_Image](https://github.com/user-attachments/assets/02c8cdc5-718c-4e2f-adda-30cafa83813e)
+" width="400"/></td>
+    <td><img src="![output](https://github.com/user-attachments/assets/2aefa43a-dd2b-44f8-84c5-6eb4943d83f1)
+" width="400"/></td>
+  </tr>
 
 **Output**
-
-![output](https://github.com/user-attachments/assets/2aefa43a-dd2b-44f8-84c5-6eb4943d83f1)
-
 </table>
 
 
