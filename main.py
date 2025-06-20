@@ -61,7 +61,7 @@ def generate_caption(model, tokenizer, photo, max_length):
     return in_text.replace('startseq', '').replace('endseq', '').strip()
 
 # Streamlit UI
-st.title("🖼️ Image Caption Generator")
+st.title(" Image Caption Generator")
 st.write("Upload an image and get a descriptive caption")
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
@@ -75,4 +75,4 @@ if uploaded_file:
         caption = generate_caption(model, tokenizer, photo, max_length)
 
     st.success("Caption Generated:")
-    st.write(f"📝 {caption}")
+    st.write(f" {caption}")
