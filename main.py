@@ -1,5 +1,6 @@
 
 import streamlit as st
+import gdown
 from PIL import Image
 import numpy as np
 import pickle
@@ -9,12 +10,21 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.applications.xception import Xception, preprocess_input
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
-# Paths
-project_dir = 'ImageCaptioning'  # Change to your deployment path
-model_path = os.path.join(project_dir, 'model_final.keras')
-tokenizer_path = os.path.join(project_dir, 'tokenizer.p')
+MODEL_ID = "1-fYifJQREz1qLdksobo2vo7Uvt3Z6cZQ"
+TOKENIZER_ID = "1V1eoR_19JD0XXlXRtVjy9bkVmYrXdTaM"
+
+# Local filenames to save downloaded files
+model_path = "model_final.keras"
+tokenizer_path = "tokenizer.p"
 max_length = 35
 
+# Download model and tokenizer from Google Drive if not already present
+if not os.path.exists(model_path):
+    gdown.download(f"https://drive.google.com/uc?id={MODEL_ID}", model_path, quiet=False)
+
+if not os.path.exists(tokenizer_path):
+    gdown.download(f"https://drive.google.com/uc?id={TOKENIZER_ID}", tokenizer_path, quiet=False)
+    
 # Load model and tokenizer
 @st.cache_resource
 def load_resources():
