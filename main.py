@@ -10,7 +10,7 @@ from tensorflow.keras.applications.xception import Xception, preprocess_input
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 # Paths
-project_dir = 'your_path/ImageCaptioning'  # Change to your deployment path
+project_dir = 'ImageCaptioning'  # Change to your deployment path
 model_path = os.path.join(project_dir, 'model_final.keras')
 tokenizer_path = os.path.join(project_dir, 'tokenizer.p')
 max_length = 35
