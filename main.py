@@ -59,6 +59,39 @@ def generate_caption(model, tokenizer, photo, max_length):
         if word == 'endseq':
             break
     return in_text.replace('startseq', '').replace('endseq', '').strip()
+    
+st.set_page_config(page_title="Image Caption Generator", layout="centered")
+
+st.markdown("""
+    <style>
+    .stApp {
+        background-color: #f7f9fc;
+        font-family: 'Segoe UI', sans-serif;
+    }
+    h1 {
+        text-align: center;
+        color: #3B3B98;
+        font-size: 2.8em;
+        margin-bottom: 0.2em;
+    }
+    .caption-box {
+        background-color: #f0f0f5;
+        padding: 1em;
+        border-radius: 10px;
+        font-size: 1.2em;
+        color: #333;
+        text-align: center;
+    }
+    .upload-box {
+        border: 2px dashed #aaa;
+        padding: 2em;
+        border-radius: 10px;
+        text-align: center;
+        color: #888;
+        margin-bottom: 2em;
+    }
+    </style>
+""", unsafe_allow_html=True)
 
 # Streamlit UI
 st.title(" Image Caption Generator")
