@@ -1,5 +1,5 @@
 numpy
 pandas
-tensorflow==2.19.0
+tensorflow==2.13.0
 tqdm
 streamlit
