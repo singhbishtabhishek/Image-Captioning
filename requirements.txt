@@ -1,5 +1,6 @@
-numpy
-pandas
 tensorflow==2.13.0
-tqdm
 streamlit
+numpy==1.23.5
+pandas==1.5.3
+Pillow
+tqdm
