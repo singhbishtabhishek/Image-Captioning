@@ -67,10 +67,10 @@ st.set_page_config(page_title="Image Caption Generator", layout="centered")
 st.title(" Image Caption Generator")
 st.write("Upload an image and get a descriptive caption")
 
-uploaded_file= st.file_uploader("Choose image...", type=["jpg", "jpeg", "png"], key="uploader")
+uploaded_file= st.file_uploader("Choose image...", type=["jpg", "jpeg", "png"])
 
 if uploaded_file:
-    st.image(uploaded_file1, caption="First Image", use_column_width=True)
+    st.image(uploaded_file, generate_caption, use_column_width=True)
     # Call your captioning model here for uploaded_file1
 
     with st.spinner("Generating caption..."):
