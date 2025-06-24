@@ -67,7 +67,7 @@ uploaded_file = st.file_uploader("Choose image...", type=["jpg", "jpeg", "png"])
 
 if uploaded_file:
     image = Image.open(uploaded_file)
-    st.image(image, caption="Uploaded Image", use_column_width=True)
+    st.image(image, caption="Uploaded Image", use_container_width=True)
 
     with st.spinner("Generating caption..."):
         photo = extract_feature_img(image, xception_model)
